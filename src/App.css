@@ -1,0 +1,287 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-navbar {
+  background-color: #70ad47 !important;
+  
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link,
+.custom-navbar .dropdown-toggle,
+.custom-navbar .dropdown-item {
+  color: white !important;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .dropdown-item:hover {
+  color: #e0ffe0 !important;
+}
+
+.custom-navbar .btn-registro {
+  background-color: #F3D301;
+  color: #404040;
+  border: none;
+  padding: 8px 16px;
+  font-weight: normal;
+  border-radius: 30px;
+}
+
+.custom-navbar .btn-registro:hover {
+  background-color: #ff9900;
+}
+
+.navbar_general {
+  align-items: left;
+}
+
+.navbar_dropdown {
+  font-size: 1.3rem !important;
+  color: #F3D301 !important;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #2D572C !important; 
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #F9EAC3 !important;
+  background-color: #2D572C !important; 
+}
+
+.contenedor-main { 
+  height: 90vh; 
+  width: 100%; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: #f2f2f2;
+}
+
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  width: 50%;
+  height: 90vh;
+}
+
+.col-md-7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  width: 80%;
+}
+
+/* Estilo del título y subtítulo */
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-weight: bold;
+  color: #70AD47;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.descripciones-h6 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 75%;
+}
+
+h6 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h7 {
+  color: #70AD47;
+  left: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h8 {
+  color: #2D572C;
+  font-weight: bold;
+  font-size: medium;
+  left: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h9 {
+  color: #ffffff;
+  left: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-registro-main {
+  background-color: #70AD47;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-weight: normal;
+  border-radius: 30px;
+}
+
+.btn-registro-main:hover {
+  background-color: #F3D301;
+}
+
+.btn-buscar-main {
+  background-color: #70AD47;
+  color: #fff;
+  border: solid 1px #F3D301;
+  padding: 5px;
+  font-weight: normal;
+  border-radius: 30px;
+  max-height: 45px;
+}
+
+.btn-buscar-main:hover {
+  background-color: #F3D301;
+}
+
+/* Estilo del formulario */
+form {
+  width: 80%; /* Hace que el formulario ocupe el 80% del contenedor */
+  max-width: 400px; /* Limita el ancho máximo del formulario */
+}
+
+.form-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-control {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+/* Estilo del botón de registro */
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #70ad47; /* Color verde */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5e8c39; /* Color verde más oscuro */
+}
+
+/* Estilo para la columna de imagen */
+.col-md-6 img {
+  max-width: 100%; /* Asegura que la imagen se ajuste al tamaño del contenedor */
+  border-radius: 10px;
+}
+
+/* Asegúrate de que el formulario y la imagen se alineen correctamente */
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-md-6 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.btn.boton-primario-personalizado {
+  width: 100%;
+  padding: 10px;
+  background-color: #70AD47 !important;
+  color: #fff !important;
+  border: none;
+}
+
+.btn.boton-primario-personalizado:hover {
+  background-color: #F3D301 !important;
+}
+
+.me-2 {
+  margin-right: 0.5rem !important;
+  height: 45px;
+  padding: 0px;
+  margin-bottom: 0px;
+}
