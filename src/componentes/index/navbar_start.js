@@ -31,7 +31,7 @@ function OffcanvasExample() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="Login">Iniciar Sesión</Nav.Link>
+                  <Nav.Link href="/login/">Iniciar Sesión</Nav.Link>
                   <Button href="Registro" className="btn-registro ms-2">Registrarse Ahora <FaArrowRight /></Button>
                 </Nav>
               </Offcanvas.Body>
