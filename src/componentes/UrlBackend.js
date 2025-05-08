@@ -1,3 +1,3 @@
-const apiURL = "http://localhost:8000/";
+const apiURL = "https://backend-taskmaster-rmyo.onrender.com/";
 
 export default apiURL;
